@@ -1,0 +1,10 @@
+body {font: normal 1.02em 'Verdana';}
+header table {width: 100%;}
+a {font: normal 1.02em 'Verdana';} a:hover {font: normal 1.02em 'Verdana'; color: orange;} a:active {color: darkorange;}
+h1 {margin: 0.1em  0; padding: 0.1em 0;}
+h2 {margin: 0.07em 0; padding: 0.07em 0;}
+h3 {margin: 0.05em 0; padding: 0.05em 0;}
+h4 {margin: 0.04em 0; padding: 0.04em 0;}
+h5 {margin: 0.03em 0; padding: 0.03em 0;}
+h6 {margin: 0.02em 0; padding: 0.02em 0;}
+table, th, tr, td {border: 1px solid #000;}
