@@ -1,10 +1,28 @@
 body {font: normal 1.02em 'Verdana';}
-header table {width: 100%;}
+
+header table {width: 100%; border: 0;} header td {border: 0; text-align: center; width: 33%;}
+h1.title {font: 400 2.2em 'Verdana'; margin: 0.01em 0; padding: 0.01em 0;}
+h2.subtitle {font: 400 1.6em 'Verdana'; margin: 0.01em 0; padding: 0.01em 0;}
+
 a {font: normal 1.02em 'Verdana';} a:hover {font: normal 1.02em 'Verdana'; color: orange;} a:active {color: darkorange;}
+h {background-color: #D8A6AE;}
 h1 {margin: 0.1em  0; padding: 0.1em 0;}
 h2 {margin: 0.07em 0; padding: 0.07em 0;}
 h3 {margin: 0.05em 0; padding: 0.05em 0;}
 h4 {margin: 0.04em 0; padding: 0.04em 0;}
 h5 {margin: 0.03em 0; padding: 0.03em 0;}
 h6 {margin: 0.02em 0; padding: 0.02em 0;}
-table, th, tr, td {border: 1px solid #000;}
+
+table, th, tr, td {border: 1px solid #000; border-spacing: 0;}
+table td {text-align: left; border: 1px solid #000; width: 1fr;}
+
+.box {width: 500px; border: 1px solid #000; border-radius: 5px; padding: 10px;}
+.fwbox {width: 100%; border: 1px solid #000; border-radius: 5px; padding: 10px;}
+.lbox {width: 60%; border: 1px solid #000; border-radius: 5px; padding: 10px;}
+.mbox {width: 30%; border: 1px solid #000; border-radius: 3px; padding: 10px;}
+.sbox {width: 100px; border: 1px solid #000; border-radius: 3px; padding: 10px;}
+
+.b-nobd {border: 0px solid #000;}
+.b-double {border: 4px double #000; border-radius: 0;}
+
+.gtk {font-style: italic;} /* Good to know */
