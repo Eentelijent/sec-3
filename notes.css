@@ -4,17 +4,20 @@ header table {width: 100%; border: 0;} header td {border: 0; text-align: center;
 h1.title {font: 400 2.2em 'Verdana'; margin: 0.01em 0; padding: 0.01em 0;}
 h2.subtitle {font: 400 1.6em 'Verdana'; margin: 0.01em 0; padding: 0.01em 0;}
 
-a {font: normal 1.02em 'Verdana';} a:hover {font: normal 1.02em 'Verdana'; color: orange;} a:active {color: darkorange;}
+a {font: normal 1.02em 'Verdana'; color: pastel;} a:hover {font: normal 1.02em 'Verdana'; color: orange;} a:active {color: darkorange;}
 h {background-color: #D8A6AE;}
+p {padding-top: 0.1em; margin-top: 0.1em;}
 h1 {margin: 0.1em  0; padding: 0.1em 0;}
 h2 {margin: 0.07em 0; padding: 0.07em 0;}
 h3 {margin: 0.05em 0; padding: 0.05em 0;}
-h4 {margin: 0.04em 0; padding: 0.04em 0;}
-h5 {margin: 0.03em 0; padding: 0.03em 0;}
-h6 {margin: 0.02em 0; padding: 0.02em 0;}
+h4 {margin: 0.04em 0; padding: 0.04em 0; font-size: 1.05em;}
+h5 {margin: 0.02em 0; padding: 0.02em 0; font-size: 1em;}
+h6 {margin: 0.02em 0; padding: 0.02em 0; font-size: 1em;}
 
 table, th, tr, td {border: 1px solid #000; border-spacing: 0;}
-table td {text-align: left; border: 1px solid #000; width: 1fr;}
+td {text-align: left; vertical-align: top; padding: 0 10px}
+td.tac {text-align: center; vertical-align: middle;}
+ul, td ul {padding-top: 0.1em; padding-bottom: 0;}
 
 .box {width: 500px; border: 1px solid #000; border-radius: 5px; padding: 10px;}
 .fwbox {width: 100%; border: 1px solid #000; border-radius: 5px; padding: 10px;}
@@ -24,5 +27,15 @@ table td {text-align: left; border: 1px solid #000; width: 1fr;}
 
 .b-nobd {border: 0px solid #000;}
 .b-double {border: 4px double #000; border-radius: 0;}
+.b-left {float: left;} .b-right {float: right;} .clear {clear: both;}
 
 .gtk {font-style: italic;} /* Good to know */
+
+@media only screen and (max-width: 600px) {
+    body {font-size: 18px;}
+    .fwbox {width: 100%; margin: 0 7px;}
+    .lbox {width: 100%; margin: 0 7px;}
+    .mbox {width: 80%;}
+    .sbox {width: 80%;}
+    table {width: 100%; margin: 0 7px;}
+}
