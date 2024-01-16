@@ -31,7 +31,7 @@ ul, td ul {padding-top: 0.07em; padding-bottom: 0; margin-top: 0 0.7em; padding-
 
 .gtk {font-style: italic;} /* Good to know */
 img {margin: 10px 0;}
-a img:hover {cursor: grab;} a img:active {background-color: #FFFF99;}
+a img:hover {cursor: pointer;} a img:active {background-color: #FFFF99;}
 
 @media only screen and (max-width: 600px) {
     body {font-size: 18px;}
