@@ -1,4 +1,4 @@
-body {font: normal 1.02em 'Verdana';}
+body {font: normal 1.02em 'Verdana'; background-color: #E0E0E0;}
 
 header table {width: 100%; border: 0;} header td {border: 0; text-align: center; width: 33%;}
 h1.title {font: 400 2.2em 'Verdana'; margin: 0.01em 0; padding: 0.01em 0;}
@@ -13,6 +13,7 @@ h3 {margin: 0.05em 0; padding: 0.05em 0;}
 h4 {margin: 0.04em 0; padding: 0.04em 0; font-size: 1.05em;}
 h5 {margin: 0.02em 0; padding: 0.02em 0; font-size: 1em;}
 h6 {margin: 0.02em 0; padding: 0.02em 0; font-size: 1em;}
+h7 {margin: 0.01em 0; padding: 0.01em 0; font-size: 1em; font-weight: normal; text-decoration: underline;}
 
 table, th, tr, td {border: 1px solid #000; border-spacing: 0;}
 td {text-align: left; vertical-align: top; padding: 0 10px} th {padding: 0 7px;}
@@ -28,10 +29,14 @@ ul, td ul {padding-top: 0.07em; padding-bottom: 0; margin-top: 0 0.7em; padding-
 .b-nobd {border: 0px solid #000;}
 .b-double {border: 4px double #000; border-radius: 0;}
 .b-left {float: left;} .b-right {float: right;} .clear {clear: both;}
+.b-bdless {border: 0;}  .u-bdless {padding-top: 0; margin-top: 0;}
+.box, .fwbox, .mbox, .lbox, .sbox {word-wrap: break-word;}
 
 .gtk {font-style: italic;} /* Good to know */
 img {margin: 10px 0;}
 a img:hover {cursor: pointer;} a img:active {background-color: #FFFF99;}
+figcaption {margin-top: -12px; padding-top: -12px; font-style: italic;}
+hr.h2 {width: 50%; margin: 0 auto;}
 
 @media only screen and (max-width: 600px) {
     body {font-size: 18px;}
@@ -40,4 +45,6 @@ a img:hover {cursor: pointer;} a img:active {background-color: #FFFF99;}
     .mbox {width: 80%;}
     .sbox {width: 80%;}
     table {width: 100%; margin: 0 7px;}
+    img {width: 100%;}
+    hr.h2 {width: 100%;}
 }
